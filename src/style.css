@@ -18,7 +18,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: bisque;
+  color: #dc143c;
 }
 
 form {
@@ -37,7 +37,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: burlywood;
+  color: #dc143c;
 }
 .submit-button {
   margin-left: 10px;
@@ -60,4 +60,5 @@ form {
 footer {
   text-align: center;
   font-size: 13px;
+  margin-bottom: 40px;
 }
