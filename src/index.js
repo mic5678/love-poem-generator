@@ -1,4 +1,6 @@
-function displayPoem(response) {
+
+function generatePoem(event) {
+  event.preventDefault(); 
   new Typewriter("#poem", {
     strings: response.data.answer,
     autoStart: true,
@@ -6,8 +8,7 @@ function displayPoem(response) {
     cursor: "",
   });
 }
-function generatePoem(event) {
-  event.preventDefault();
+
 
   let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "7ao9826852a4b8038td2ff4e87b113f2";
